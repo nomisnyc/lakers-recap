@@ -1,0 +1,15 @@
+// scss/
+// base scss file that pulls the scss partials
+
+
+@import '_normalize';
+@import '_var';
+
+
+body {
+    background: url(/images/background.jpg) repeat;
+    font-family: Helvetica, Arial, sans-serif;
+    .container {
+        background: $white;
+    }
+}
